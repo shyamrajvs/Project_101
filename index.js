@@ -15,7 +15,7 @@ const app=express()
 app.set('views','./views/userSide')
 
 
-// app.use(logger('dev'))
+app.use(logger('dev'))
 
 app.use(nocache())
 
